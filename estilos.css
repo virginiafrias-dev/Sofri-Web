@@ -1,0 +1,57 @@
+/* * {
+	margin: 0;
+	padding: 0;
+} */
+
+/* HEADER */
+
+header {
+	background-color: white;
+	margin: 0;
+	position: sticky;
+	top: 0px;
+}
+
+.encabezado {
+	margin: 0.5em;
+}
+
+.encabezado img {
+	width: 250px;
+	height: 250px;
+}
+
+.encabezado a {
+	margin: 5px;
+	padding: 5px;
+}
+
+/* CUERPO */
+
+.imagenes {
+	background-color: yellow;
+	margin: 50px 0;
+	padding: 5px;
+	/* border: 2px solid red; */
+	display: inline-block;
+}
+
+.imagenes img {
+	width: 250px;
+	height: 250px;
+	float: left;
+}
+
+p {
+	color: red;
+}
+
+/* FOOTER */
+
+footer {
+	background-color: orange;
+	margin-top: 1rem;
+	padding: 2rem;
+	/* display: flex;
+	flex-direction: column; */
+}
